@@ -1,0 +1,79 @@
+buildscript {
+    repositories {
+        maven { url 'http://repo1.maven.org/maven2' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.0'
+    }
+}
+
+apply plugin: 'android-library'
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.10'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile('com.google.code.gson:gson:2.2.4')
+    compile('org.apache.directory.studio:org.apache.commons.io:2.4')
+    compile('com.android.support:appcompat-v7:19.1.0')
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 25
+        ndk {
+            moduleName "witvad"
+            ldLibs "log"
+        }
+    }
+    sourceSets {
+        main {
+            java {
+                srcDir 'src/main/java'
+            }
+        }
+    }
+}
+
+
+task clearJar(type: Delete) {
+    delete buildDir.toString() + '/wit-android-sdk.zip';
+}
+
+task jar(type: Copy) {
+    from('build/intermediates/bundles/release/')
+    into buildDir
+    include('classes.jar')
+    rename ('classes.jar', 'wit.sdk.jar')
+}
+
+jar.dependsOn(clearJar, build)
+
+
+
+task buildzip(type:Zip) {
+    includeEmptyDirs = false
+    from ('src/main/res')
+    include ('drawable-hdpi/custom_button.xml', 'drawable-hdpi/microphone.png', 'layout/wit_button.xml')
+    from (buildDir)
+    include('wit.sdk.jar')
+    from (buildDir.toString() + '/intermediates/bundles/release/')
+    include('jni/')
+    into 'res' // note that this specifies path *in* the archive
+    eachFile { fileCopyDetails ->
+        fileCopyDetails.path = fileCopyDetails.path.replaceFirst("jni", "jniLibs")
+    }
+    destinationDir buildDir
+    archiveName 'wit-android-sdk.zip'
+
+}
+buildzip.dependsOn(jar);

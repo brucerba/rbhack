@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/brucexia/wit/wit.sdk1/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/custom_button.xml",
+        "source": "/Users/brucexia/wit/wit.sdk1/build/intermediates/bundles/debug/res/drawable-hdpi-v4/custom_button.xml"
+    },
+    {
+        "merged": "/Users/brucexia/wit/wit.sdk1/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/microphone.png",
+        "source": "/Users/brucexia/wit/wit.sdk1/build/intermediates/bundles/debug/res/drawable-hdpi-v4/microphone.png"
+    },
+    {
+        "merged": "/Users/brucexia/libraries/quickstart-android/wit/wit.sdk1/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/custom_button.xml",
+        "source": "/Users/brucexia/libraries/quickstart-android/wit/wit.sdk1/build/intermediates/bundles/debug/res/drawable-hdpi-v4/custom_button.xml"
+    },
+    {
+        "merged": "/Users/brucexia/libraries/quickstart-android/wit/wit.sdk1/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/microphone.png",
+        "source": "/Users/brucexia/libraries/quickstart-android/wit/wit.sdk1/build/intermediates/bundles/debug/res/drawable-hdpi-v4/microphone.png"
+    },
+    {
+        "merged": "/Users/brucexia/libraries/quickstart-android/wit/wit.sdk1/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/brucexia/libraries/quickstart-android/wit/wit.sdk1/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/brucexia/wit/wit.sdk1/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/brucexia/wit/wit.sdk1/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png"
+    }
+]

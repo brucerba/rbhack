@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/brucexia/libraries/quickstart-android/wit/wit.sdk1/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/brucexia/libraries/quickstart-android/wit/wit.sdk1/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/brucexia/wit/wit.sdk1/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/brucexia/wit/wit.sdk1/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/brucexia/wit/wit.sdk1/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/brucexia/wit/wit.sdk1/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/brucexia/libraries/quickstart-android/wit/wit.sdk1/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/brucexia/libraries/quickstart-android/wit/wit.sdk1/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/brucexia/libraries/quickstart-android/wit/wit.sdk1/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/brucexia/libraries/quickstart-android/wit/wit.sdk1/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/brucexia/wit/wit.sdk1/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/brucexia/wit/wit.sdk1/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/brucexia/libraries/quickstart-android/wit/wit.sdk1/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/brucexia/libraries/quickstart-android/wit/wit.sdk1/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/brucexia/wit/wit.sdk1/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/brucexia/wit/wit.sdk1/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/brucexia/libraries/quickstart-android/wit/wit.sdk1/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/brucexia/libraries/quickstart-android/wit/wit.sdk1/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/brucexia/wit/wit.sdk1/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/brucexia/wit/wit.sdk1/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/brucexia/libraries/quickstart-android/wit/wit.sdk1/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/brucexia/libraries/quickstart-android/wit/wit.sdk1/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/brucexia/wit/wit.sdk1/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/brucexia/wit/wit.sdk1/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_slide_in_bottom.xml"
+    }
+]
