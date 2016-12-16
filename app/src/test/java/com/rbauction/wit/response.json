@@ -1,0 +1,20 @@
+{
+  "entities": {
+    "local_search_query": [
+      {
+        "confidence": 0.9744991938495567,
+        "start": 12,
+        "end": 16,
+        "body": "work",
+        "value": {
+          "value": "work"
+        },
+        "entity": "local_search_query"
+      }
+    ]
+  },
+  "confidence": null,
+  "_text": "navigate to work",
+  "intent": "default_intent",
+  "intent_id": "5813a8bc-3116-4115-a5f4-8fd645d64986"
+}
